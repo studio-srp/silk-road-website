@@ -973,7 +973,7 @@
 }
 
 .member:hover{
-    transform: scale(1.15);
+    transform: scale(1.03);
     transition-duration: 1s;
 }
 .glass{
@@ -986,3 +986,4 @@
    padding-top: 5em;
     padding-bottom: 5em;
 }
+

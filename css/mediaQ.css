@@ -97,7 +97,10 @@
         background: rgba(21, 20, 20, 0.71) !important;
 
     }
-
+    .submit-form{
+        align-items: center !important;
+        justify-items: center!important;
+    }
 
 /*    rain*/
     @-webkit-keyframes drop {
@@ -161,5 +164,6 @@
     .footer-list {
         grid-template-columns: 1fr 1fr !important;
     }
+
 
 }
