@@ -1,8 +1,5 @@
 @media only screen and (max-width: 1412px){
-    .footer-list {
-        grid-template-columns: 1fr 1fr 1fr !important;
-        justify-items: center !important;
-    }
+
     .section-copyright {
         grid-template-columns: 1fr !important;
     }
@@ -56,7 +53,10 @@
         grid-template-columns: 1fr 1fr !important;
     }
 
-
+    .footer-list {
+        grid-template-columns: 1fr 1fr 1fr !important;
+        justify-items: center !important;
+    }
 
     .main-image {
         align-items: center !important;

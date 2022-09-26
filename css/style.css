@@ -25,7 +25,7 @@
 }
 .border-g {
     border: #55F9CE 3px solid;
-    width: 80%;
+    /*width: 80%;*/
 }
 
 
@@ -43,6 +43,8 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+
 .section {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -87,7 +89,7 @@
     font-style: normal;
     font-size: 1.3em;
     line-height: 1.5em;
-    /*text-align: justify;*/
+    text-align: justify;
     letter-spacing: -0.02em;
     /*padding-left: 10%;*/
     padding-top: 2em;
@@ -366,8 +368,13 @@ footer {
 
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
-    grid-column-gap: 1rem;
-    padding: 1rem;
+    grid-column-gap: 1em;
+    padding: 1em;
+
+    /*grid-template-columns: 2fr 2fr;*/
+    /*mobile view*/
+
+
 }
 
 .footer-list h3 {

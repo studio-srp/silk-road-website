@@ -1,4 +1,5 @@
 
+/*******************************/
 .ag-lightning {
     position: absolute;
     top: 0;
@@ -349,8 +350,6 @@
         background: rgba(255, 255, 255, 0);
     }
 }
-
-
 
 @-webkit-keyframes an-slow-shake {
     0% {
