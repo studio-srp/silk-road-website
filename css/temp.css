@@ -34,7 +34,7 @@
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sparks/images/lightning-2.png);
 
     top: -10.1875em;
-    right: -6.1875em;
+    right: 0em;
 
     -webkit-animation: an-lightning-second 30s linear 3s infinite;
     -moz-animation: an-lightning-second 30s linear 3s infinite;
@@ -909,6 +909,7 @@
     background-image: url("../wetransfer_banners_2022-09-12_1034/Banners/services-banner-5.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .AboutUs-topic {
@@ -930,15 +931,15 @@
 }
 
 .team-img {
-    /*position: center;*/
-    height: 25em;
-    /*padding: 2em;*/
+    padding: 1em;
+    height: 15em;
 }
+
 
 .mem-name {
     font-style: normal;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 2em;
 
     letter-spacing: -0.075em;
 
@@ -946,8 +947,8 @@
 
 .mem-role {
     font-style: normal;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 400;
+    font-size: 1.5em;
 
     letter-spacing: -0.075em;
 
@@ -977,7 +978,7 @@
     transition-duration: 1s;
 }
 .glass{
-    background: rgba(21, 20, 20, 0.27);
+    background: rgba(2, 0, 0, 0.18);
     backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255,255,255,0.2);
     border-left: 1px solid rgba(255,255,255,0.2);
@@ -987,3 +988,8 @@
     padding-bottom: 5em;
 }
 
+.content{
+    z-index: 10!important;
+}
+
+/*************nav-mobile*/
