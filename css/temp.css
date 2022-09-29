@@ -1,4 +1,3 @@
-
 /*******************************/
 .ag-lightning {
     position: absolute;
@@ -7,6 +6,7 @@
     right: 0;
     bottom: 0;
 }
+
 .ag-lightning:before,
 .ag-lightning:after {
     content: "";
@@ -17,6 +17,7 @@
 
     position: absolute;
 }
+
 .ag-lightning:before {
     width: 272px;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sparks/images/lightning-1.png);
@@ -29,6 +30,7 @@
     -o-animation: an-lightning-first 30s linear 3s infinite;
     animation: an-lightning-first 30s linear 3s infinite;
 }
+
 .ag-lightning:after {
     width: 254px;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sparks/images/lightning-2.png);
@@ -119,6 +121,7 @@
         background: rgba(255, 255, 255, 0);
     }
 }
+
 @-moz-keyframes an-blink {
     0% {
         background: rgba(255, 255, 255, 0);
@@ -196,6 +199,7 @@
         background: rgba(255, 255, 255, 0);
     }
 }
+
 @-o-keyframes an-blink {
     0% {
         background: rgba(255, 255, 255, 0);
@@ -273,6 +277,7 @@
         background: rgba(255, 255, 255, 0);
     }
 }
+
 @keyframes an-blink {
     0% {
         background: rgba(255, 255, 255, 0);
@@ -373,6 +378,7 @@
         transform: translateX(0);
     }
 }
+
 @-moz-keyframes an-slow-shake {
     0% {
         -webkit-transform: translateX(0);
@@ -400,6 +406,7 @@
         transform: translateX(0);
     }
 }
+
 @-o-keyframes an-slow-shake {
     0% {
         -webkit-transform: translateX(0);
@@ -427,6 +434,7 @@
         transform: translateX(0);
     }
 }
+
 @keyframes an-slow-shake {
     0% {
         -webkit-transform: translateX(0);
@@ -482,6 +490,7 @@
         transform: scale(-1, 1) translateX(0);
     }
 }
+
 @-moz-keyframes an-slow-shake-revert {
     0% {
         -webkit-transform: scale(-1, 1) translateX(0);
@@ -509,6 +518,7 @@
         transform: scale(-1, 1) translateX(0);
     }
 }
+
 @-o-keyframes an-slow-shake-revert {
     0% {
         -webkit-transform: scale(-1, 1) translateX(0);
@@ -536,6 +546,7 @@
         transform: scale(-1, 1) translateX(0);
     }
 }
+
 @keyframes an-slow-shake-revert {
     0% {
         -webkit-transform: scale(-1, 1) translateX(0);
@@ -601,6 +612,7 @@
         opacity: 0;
     }
 }
+
 @-moz-keyframes an-lightning-first {
     0%, 6.75% {
         height: 0;
@@ -633,6 +645,7 @@
         opacity: 0;
     }
 }
+
 @-o-keyframes an-lightning-first {
     0%, 6.75% {
         height: 0;
@@ -665,6 +678,7 @@
         opacity: 0;
     }
 }
+
 @keyframes an-lightning-first {
     0%, 6.75% {
         height: 0;
@@ -733,6 +747,7 @@
         opacity: 0;
     }
 }
+
 @-moz-keyframes an-lightning-second {
     0% {
         height: 0;
@@ -768,6 +783,7 @@
         opacity: 0;
     }
 }
+
 @-o-keyframes an-lightning-second {
     0% {
         height: 0;
@@ -803,6 +819,7 @@
         opacity: 0;
     }
 }
+
 @keyframes an-lightning-second {
     0% {
         height: 0;
@@ -880,6 +897,7 @@
     position: absolute;
     top: calc((var(--y) + 10) * -1px);
 }
+
 .rain__drop path {
     fill: #a1c6cc;
     opacity: var(--o);
@@ -973,23 +991,69 @@
     justify-items: center;
 }
 
-.member:hover{
+.member:hover {
     transform: scale(1.03);
     transition-duration: 1s;
 }
-.glass{
+
+.glass {
     background: rgba(2, 0, 0, 0.18);
     backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(255,255,255,0.2);
-    border-left: 1px solid rgba(255,255,255,0.2);
-    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-   padding-top: 5em;
+    padding-top: 5em;
     padding-bottom: 5em;
 }
 
-.content{
-    z-index: 10!important;
+.content {
+    z-index: 20 !important;
 }
 
-/*************nav-mobile*/
+/*************nav-mobile************/
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(2, 11, 37, 0.38);
+    position: fixed;
+    width: 100%;
+}
+.topNav-logo{
+    height: 1.5rem;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: #f7f8fc;
+    padding-left: 1em ;
+    padding-right: 1em;
+    padding-top: 1em;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.topnav a.icon {
+    /*background: #052970;*/
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    color: white;
+    background-color: #052970;
+}
+.nav-list-h:hover{
+    color: white!important;
+}
+/*.active {*/
+/*    background-color: #052970;*/
+/*    color: white;*/
+/*}*/
